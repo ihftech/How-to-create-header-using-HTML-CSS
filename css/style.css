@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+nav{
+	width: 70%;
+	float: right;
+	margin-top: 53px;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding: 0 20px;
+	display: block;
+	transition: .5s;
+}
+nav ul li:last-child a{
+	padding-right: 0;
+}
+nav ul li a:hover{
+	color: #0079BC;
+}
